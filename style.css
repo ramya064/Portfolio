@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('Background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+  }
+  #about {
+    font-size: 10px;
+    line-height: 1.2;
+  }
+  
+  header {
+    background: #af4c53;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background: #333;
+  }
+  
+  nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background: #575757;
+  }
+  
+  section {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9); 
+    margin: 1rem auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  #certificates ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #certificates li {
+    margin-bottom: 10px;
+  }
+  
+  #certificates a {
+    color: #614caf;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  #certificates a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: white;
+  }
+  
+  /* Project image styles */
+  .project {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  
+  .project img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  }
+  
+  .project div {
+    flex: 1;
+  }
+  
